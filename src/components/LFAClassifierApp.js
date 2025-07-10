@@ -745,5 +745,17 @@ const LFAClassifierApp = () => {
     {/* You can add training progress bar / logs here */}
   </div>
 </div>
-  )} 
+    );
+   return (
+  <div>
+    {/* Tab navigation */}
+    <button onClick={() => setActiveTab('upload')}>Upload</button>
+    <button onClick={() => setActiveTab('train')}>Train</button>
+    {/* Render the correct tab */}
+    {activeTab === 'upload' && renderUploadTab()}
+    {activeTab === 'train' && renderTrainingTab()}
+  </div>
+);
+}; // Close LFAClassifierApp
+  
 export default LFAClassifierApp;
