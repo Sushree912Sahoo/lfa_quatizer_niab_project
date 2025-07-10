@@ -746,3 +746,12 @@ const LFAClassifierApp = () => {
   </div>
 </div>
   )} 
+function App() {
+  return (
+    <div className="App">
+      {/* Your content here */}
+    </div>
+  );
+}
+
+export default App; // ✅ This line is required
