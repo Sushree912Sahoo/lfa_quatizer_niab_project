@@ -746,3 +746,4 @@ const LFAClassifierApp = () => {
   </div>
 </div>
   )} 
+export default LFAClassifierApp;
