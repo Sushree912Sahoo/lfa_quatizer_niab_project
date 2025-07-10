@@ -746,12 +746,11 @@ const LFAClassifierApp = () => {
   </div>
 </div>
   )} 
+import React from 'react';
+import LFAClassifierApp from './components/LFAClassifierApp';
+
 function App() {
-  return (
-    <div className="App">
-      {/* Your content here */}
-    </div>
-  );
+  return <LFAClassifierApp />;
 }
 
-export default App; // ✅ This line is required
+export default App;
